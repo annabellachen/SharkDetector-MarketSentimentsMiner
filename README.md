@@ -12,11 +12,11 @@ Windows
 ``` sh 
 $ set GOOS=windows 
 $ set GOARCH=amd64
-$ go build env_helper.go file_utils.go protocol.go router.go router_handler.go server.go twitter_handler.go validator.go yf_conversations_handler.go yf_conversations_handler_test.go
+$ go build -o dist/windows/sentiments-miner env_helper.go file_utils.go protocol.go router.go router_handler.go server.go twitter_handler.go validator.go yf_conversations_handler.go yf_conversations_handler_test.go
 ```
 Linux: 
 ``` sh
 $ set GOOS=linux
 $ set GOARCH=amd64 
-$ go build env_helper.go file_utils.go protocol.go router.go router_handler.go server.go twitter_handler.go validator.go yf_conversations_handler.go yf_conversations_handler_test.go
+$ go build -o dist/linux/sentiments-miner env_helper.go file_utils.go protocol.go router.go router_handler.go server.go twitter_handler.go validator.go yf_conversations_handler.go yf_conversations_handler_test.go
 ```
